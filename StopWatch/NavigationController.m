@@ -7,6 +7,7 @@
 //
 
 #import "NavigationController.h"
+#import "ViewController.h"
 
 @interface NavigationController ()
 
@@ -14,15 +15,15 @@
 
 @implementation NavigationController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+
+    }
+    return self;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 /*
 #pragma mark - Navigation
